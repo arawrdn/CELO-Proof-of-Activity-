@@ -1,0 +1,48 @@
+{
+  "name": "celo-proof-of-activity-nft",
+  "version": "1.0.0",
+  "description": "On-chain generated Abstract NFT collection on Celo, rewarding long-term network engagement and activity.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:contract": "npx hardhat run scripts/deploy.js --network celo"
+  },
+  "keywords": [
+    "celo",
+    "nft",
+    "erc721",
+    "proof-of-activity",
+    "walletconnect",
+    "rainbowkit"
+  ],
+  "dependencies": {
+    // Frontend Framework (Next.js is common for professional Web3 projects)
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.2.4",
+    
+    // Web3 Libraries (Ethers is the core low-level library)
+    "ethers": "^6.13.1",
+    
+    // Wallet Connect & AppKit Integration (Wagmi is the React hook layer)
+    "wagmi": "^2.5.22",
+    "@rainbow-me/rainbowkit": "^2.1.2",
+    
+    // Core WalletConnect V2 library
+    "@walletconnect/modal": "^2.6.2",
+    "@walletconnect/web3-provider": "^1.8.0",
+    
+    // Utility for Chain Configurations
+    "viem": "^2.16.2"
+  },
+  "devDependencies": {
+    // Development and Linting tools
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.4",
+    // Hardhat or Foundry dependencies would be here if managing contracts in this repo
+    "hardhat": "^2.22.6"
+  }
+}
