@@ -40,7 +40,7 @@ Users must perform a single transaction to generate their unique PoA token.
 
 1.  **Connect:** Ensure your wallet is connected to the Celo network.
 2.  **Access:** Navigate to the contract on a Block Explorer (e.g., Celoscan).
-3.  **Execute:** Call the `mintActivityToken()` function.
+3.  **Execute:** Call the `MINT` function.
 4.  **Confirm:** Confirm the transaction and pay the minimal Celo gas fee.
 
 *Note: Only one PoA NFT can be minted per wallet address.*
