@@ -45,6 +45,12 @@ Users must perform a single transaction to generate their unique PoA token.
 
 *Note: Only one PoA NFT can be minted per wallet address.*
 
+Tier Name,Probability,Rarity Score (Hash Range),Future Utility
+Common,60%,401 - 999,Basic community access and recognition.
+Rare,25%,151 - 400,Tier 1 Allowlist Access (1 spot) for one major future ecosystem project.
+Epic,10%,51 - 150,Tier 2 Allowlist Access (2 spots) and a Medium Airdrop Multiplier on selected future tokens.
+Legendary,5%,0 - 50,Priority Allowlist Access for all future projects and the Highest Airdrop Multiplier.
+
 ## ⚖️ License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
