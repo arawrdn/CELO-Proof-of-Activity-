@@ -16,7 +16,7 @@ The resulting NFT is an abstract representation of the user's *unique interactio
 
 | Detail | Value |
 | :--- | :--- |
-| **Network** | Celo Mainnet (or Celo Alfajores Testnet) |
+| **Network** | Celo Mainnet |
 | **Standard** | ERC-721 (Self-Contained Implementation) |
 | **Deployed Address** | `0x1722875731a404937DeE0dB60998B24838BD638B` |
 | **Solidity Version** | `0.8.24` |
