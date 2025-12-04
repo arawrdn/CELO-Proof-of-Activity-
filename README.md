@@ -1,5 +1,8 @@
 # Celo Proof Of Activity NFT (PoA)
 
+![1000103560](https://github.com/user-attachments/assets/f62a3605-780c-42d9-b856-7c0d16d397f0)
+
+
 ## 🌟 Project Overview
 
 The Celo Proof Of Activity NFT (PoA) is an experimental collection of **abstract, on-chain generated ERC-721 tokens** deployed on the Celo Network.
